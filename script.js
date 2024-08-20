@@ -107,6 +107,6 @@ input.addEventListener('keydown',(tap)=>{
 })
 
 
-{/* <h3 class = "h3">${response.clouds.all}%</h3> */}
+
 
 

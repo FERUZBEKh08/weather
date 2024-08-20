@@ -89,6 +89,10 @@ body{
 .bottom{
     padding: 20px 20px !important;
     text-align: center;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     article{
         display: flex;
         align-items: center;
@@ -118,6 +122,7 @@ body{
 }
 .temp{
     margin-top: 10px;
+    width: 270px;
     height: 100px;
     display: flex;
     align-items: center;
