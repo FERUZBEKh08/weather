@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(./Sea\ of\ Clouds@1x-10.0s-1707px-811px.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1250px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#weather {
+  width: 300px;
+  height: 330px;
+  background-color: rgba(255, 255, 255, 0.462);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 5px;
+  transition: all 0.5s;
+  padding: 15px 15px !important;
+}
+#weather .top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  transition: all 1s;
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+#weather .top h1 {
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 120px;
+  z-index: -1;
+  transition-duration: 1s;
+}
+#weather .top article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+#weather .top article img {
+  width: 25px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+#weather .top article #x {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 50px;
+  text-align: center;
+}
+#weather .top article #x img:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+#weather .top input {
+  height: 25px;
+  width: 100%;
+  padding: 0px 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: rgb(132, 124, 124);
+  opacity: 1;
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: none;
+}
+
+.bottom {
+  padding: 20px 20px !important;
+  text-align: center;
+}
+.bottom article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 30px;
+}
+.bottom article h1 {
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+}
+
+.img-weather {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.p {
+  color: white;
+}
+
+.temp {
+  margin-top: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: rgba(128, 128, 128, 0.045);
+  padding: 10px 10px !important;
+  border-radius: 10px;
+}
+.temp h1 {
+  color: white;
+}
+.temp .intempleft {
+  display: grid;
+  align-items: center;
+  gap: 1px;
+}
+.temp .intempleft article {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.temp .intempleft article h2 {
+  color: white;
+  font-size: 17px;
+  font-weight: 100;
+}
+.temp .intempleft article img {
+  width: 15px;
+}
+.temp .intempright {
+  display: grid;
+  align-items: center;
+  gap: 1px;
+}
+.temp .intempright article {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.temp .intempright article h2 {
+  color: white;
+  font-size: 17px;
+  font-weight: 100;
+}
+.temp .intempright article img {
+  width: 15px;
+}/*# sourceMappingURL=styles.css.map */
